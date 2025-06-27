@@ -5,10 +5,6 @@ class Element {
     constructor(name, value, unit) {
         this.name = name;
         this.value = value;
-
-        if (!Object.values(UnitEnum).includes(unit)) {
-            throw new Error(error);
-        }
         this.unit = unit;
     }
 

@@ -1,7 +1,7 @@
-const UnitEnum = require("../Unit.js");
-const Ingredient = require("../Ingredient.js");
-const Allergene = require("../Allergene.js");
-const Additif = require("../Additif.js");
+const UnitEnum = require("./Unit.js");
+const Ingredient = require("./Ingredient.js");
+const Allergene = require("./Allergene.js");
+const Additif = require("./Additif.js");
 
 class ElementFactory {
     static create(type, name, value, unit, quantity) {

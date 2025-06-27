@@ -1,4 +1,4 @@
-const Element = require('./Element.js');
+const Element = require('./Element');
 
 class Ingredient extends Element {
 
